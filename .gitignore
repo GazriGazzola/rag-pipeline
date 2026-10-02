@@ -1,0 +1,15 @@
+# Ignore the documents folder and everything inside it
+documents/
+documents/*
+*.pdf
+*.txt
+*.csv
+
+# Python cache & local data
+__pycache__/
+*.pyc
+.env
+
+# Storage directories
+qdrant_storage/
+ollama_storage/
